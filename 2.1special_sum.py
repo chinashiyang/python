@@ -5,3 +5,12 @@
 #Note. Name your function calculate_special_sum and save it into a special_sum.py file.
 #Example
 #assert calculate_special_sum ( 3 ) == 14
+imput 'shuru'n
+i=0
+item=0
+calculate_special_sum=0
+while (n>i):
+  calculate_special_sum=calculate_special_sum+item
+  i++
+  item=n*[(n+1)**2]
+print calculate_special_sum
